@@ -5,23 +5,8 @@
   font-size: 3.75rem;
 }
 
-.footer {
-  margin-top: 130px;
-}
-
-.case_study_footer .footer_img {
-  height: 580px;
-  object-fit: cover;
-}
-
 .case_study_footer .bottom_footer {
   margin-top: 70px;
-}
-
-.width_util {
-  width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .casestudy .card_wrapper {
@@ -50,18 +35,18 @@
 .center_card_image {
   height: 600px;
 }
-.card_block .yellow_spot {
+
+.card_block .yellow-wrapper {
   width: 600px;
   aspect-ratio: 1/1;
   object-fit: cover;
-  margin-left: 350px;
 }
 /* Stat  */
 .stats {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .five9_stats {
@@ -108,4 +93,48 @@
 
 .para {
   margin-top: 20px;
+}
+
+.case_study_footer {
+  position: relative;
+  height: 510px;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 15px;
+}
+
+.footer-img-wrapper {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+}
+.case_study_footer .footer_img {
+  width: 100%;
+  height: 510px;
+  object-fit: cover;
+}
+
+.footer_wrapper {
+  position: absolute;
+  top: 0;
+}
+
+.bottom_footer_wrapper {
+  position: absolute;
+  top: 100px;
+}
+
+/* .footer{
+  position: relative;
+} */
+
+#case_footer_tagline {
+  color: #fff;
+  letter-spacing: 3px;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
 }
