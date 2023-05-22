@@ -43,12 +43,8 @@
   color: white;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
 }
 
-.five9_stats {
-  width: 500px;
-}
 .each_stat {
   width: 220px;
 }
@@ -132,11 +128,18 @@
   bottom: 0;
 }
 
-.phone-wrapper{
+.phone-wrapper {
   position: absolute;
   top: 0;
 }
 
-.phone_wrapper{
+.phone_wrapper {
   justify-content: space-evenly;
+}
+
+.five9-stats-width {
+  width: 500px;
+}
+.five9-header-img {
+  margin-top: -25px;
 }
