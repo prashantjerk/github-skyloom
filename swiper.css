@@ -86,8 +86,7 @@
   align-items: center;
 }
 #swiper .swiper-slider {
-  height: 52rem;
-  padding: 2rem 0;
+  height: 800px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -115,8 +114,8 @@
 }
 
 .swiper-slide .swiper-slide-img img {
-  width: 400px;
-  height: 672px;
+  width: 400px !important;
+  height: 672px !important;
   border-radius: 32px;
   object-fit: cover;
 }
@@ -173,16 +172,6 @@
     left: 20% !important;
     transform: translateX(-20%) !important;
   }
-}
-
-.swiper-slider-control .slider-arrow {
-  background: #ffffff;
-  width: 3.5rem;
-  height: 3.5rem;
-  border-radius: 50%;
-  left: 42%;
-  transform: translateX(-42%);
-  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
 }
 
 .swiper-slider-control .slider-arrow ion-icon {
