@@ -52,6 +52,10 @@ html {
   width: 1400px;
 }
 
+.home_nav_bar_width{
+  width: 1450px;
+}
+
 .bluish {
   color: var(--bluish-color);
 }

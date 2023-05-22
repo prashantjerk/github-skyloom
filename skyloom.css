@@ -64,7 +64,9 @@ body {
 .material-symbols-outlined.menu {
   color: white;
   font-size: 50px;
+  padding-right: 30px;
 }
+
 
 .hero {
   position: absolute;
