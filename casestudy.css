@@ -10,20 +10,17 @@
 }
 
 .casestudy .card_wrapper {
+  position: relative;
   height: 600px;
 }
 .card_block {
-  margin-top: 70px;
-  position: relative;
+  position: absolute;
+  top: 0;
 }
 
 .card_wrapper .phone_wrapper {
-  position: absolute;
-  top: 0;
   height: 600px;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
 .card_image {
@@ -137,4 +134,13 @@
   position: absolute;
   text-align: center;
   bottom: 0;
+}
+
+.phone-wrapper{
+  position: absolute;
+  top: 0;
+}
+
+.phone_wrapper{
+  justify-content: space-evenly;
 }
