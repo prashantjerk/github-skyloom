@@ -114,7 +114,7 @@
 }
 
 .swiper-slide .swiper-slide-img img {
-  width: 592px;
+  width: 400px;
   height: 672px;
   border-radius: 32px;
   object-fit: cover;
@@ -206,5 +206,3 @@
 .swiper-pagination-bullet {
   background: #fff !important;
 }
-
-
