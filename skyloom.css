@@ -146,7 +146,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
   row-gap: 15px;
-  column-gap: 150px;
+  column-gap: 138px;
 }
 
 #services-title-row {
@@ -207,7 +207,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   row-gap: 40px;
-  column-gap: 240px;
+  column-gap: 230px;
   height: 270px;
 }
 
