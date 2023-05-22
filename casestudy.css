@@ -31,8 +31,12 @@
 
 .center_card_image {
   height: 600px;
+  opacity: 1;
 }
 
+.adjacent-img{
+  opacity: 0.5;
+}
 .card_block .yellow-wrapper {
   width: 600px;
   aspect-ratio: 1/1;
